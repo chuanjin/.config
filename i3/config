@@ -219,8 +219,8 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 # Screen Lock
 # bindsym $win+Shift+x exec i3lock -t -i Downloads/background.png 
-bindsym $win+shift+x exec --no-startup-id ~/.config/i3/i3lockpp/i3lock++ spread
-exec --no-startup-id xautolock -detectsleep -time 15 -locker '~/.config/i3/i3lockpp/i3lock++ spread' -notify 30 \
+bindsym $win+shift+x exec --no-startup-id i3lock-fancy
+exec --no-startup-id xautolock -detectsleep -time 15 -locker 'i3lock-fancy' -notify 30 \
   -notifier "notify-send -u critical -t 10000 -- 'LOCKING screen in 30 seconds'"
 
 # Enable Gaps
