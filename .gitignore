@@ -1,0 +1,27 @@
+# ignore everything
+/*
+/*/
+
+# ... but these:
+!i3/
+!polybar/
+!rofi/
+!ranger/
+ranger/plugins/__pycache__/*
+ranger/colorschemes/__pycache__/*
+rranger/colorschemes/__init__.pyo
+ranger/colorschemes/default.pyo
+ranger/plugins/__init__.pyo
+ranger/plugins/devicons.pyo
+ranger/plugins/devicons_linemode.pyoanger/folders.conf
+!kitty/
+!alacritty/
+!neofetch/
+!omf/
+!compton.conf
+!picom.conf
+!.zshrc
+!zsh
+!i3status/
+!.tmux.conf
+!tmux/
