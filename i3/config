@@ -266,6 +266,6 @@ exec --no-startup-id nm-applet
 for_window [class="Yad" title="yad-calendar"] floating enable
 
 # With --no-startup-id to get rid of spining cursor
-exec_always --no-startup-id xrandr --output $INTERNAL_MONITOR --mode 2560x1440
-# exec_always --no-startup-id xrandr --output $INTERNAL_MONITOR --mode 3840x2160
-exec_always --no-startup-id xrandr --output $EXTERNAL_MONITOR --auto --above $INTERNAL_MONITOR
+exec_always --no-startup-id xrandr --output $INTERNAL_MONITOR --primary --mode 2560x1440
+# exec_always --no-startup-id xrandr --output $INTERNAL_MONITOR --primary --mode 3840x2160
+exec_always --no-startup-id xrandr --output $EXTERNAL_MONITOR --auto --above $INTERNAL_MONITOR --mode 2560x1440
