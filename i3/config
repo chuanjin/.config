@@ -51,6 +51,7 @@ floating_modifier $win
 # start a terminal
 # bindsym $win+Return exec --no-startup-id urxvt
 bindsym $win+Return exec --no-startup-id alacritty
+# bindsym $win+Return exec --no-startup-id kitty
 # bindsym $win+Return exec --no-startup-id i3-sensible-terminal
 # bindsym $win+Return exec --no-startup-id gnome-terminal --hide-menubar
 
